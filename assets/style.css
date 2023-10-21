@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+} 
+
+body{
+    margin: 0;
+}
+
+h1{font-size: 2em;}
+h2{font: 1em;}
+
+/*navbar*/
+header{
+    display: block;
+    position: fixed;
+    z-index: 1;
+}
+
+nav{
+    margin: auto;
+    color: wheat;
+    margin: 0 auto;
+    display: inline;
+}
+
+.titulo{
+    margin: 0 auto;
+}
+
+.btn-menu{
+    width: 20%;
+    margin: 0 auto;
+}
+
+header a{
+    text-decoration: none;
+    font-weight: bold;
+    color: wheat;
+}
+
+/*Main*/
+#contenido-principal{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 60vh;
+    background-image: linear-gradient( 0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5) ) ,url(../media/banner.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
